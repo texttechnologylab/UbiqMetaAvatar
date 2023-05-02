@@ -1,0 +1,24 @@
+{
+    "name": "com.digitell.metaavatar",
+    "version": "0.1.0",
+    "displayName": "Ubiq Meta Avatar",
+    "description": "CInclude Meta Avatars in Ubiq",
+    "unity": "2021.3",
+    "dependencies": {
+      "com.unity.xr.management": "3.2.16",
+      "com.ucl.ubiq": "https://github.com/texttechnologylab/ubiq.git#upm"
+   },
+   "keywords": [ ],
+    "author": {
+      "name": "Digital Teaching and Learning Lab Goethe University Frankfurt",
+      "email": "digitell@uni-frankfurt.de",
+      "url": "https://www.uni-frankfurt.de/digitell"
+    },
+    "samples": [
+      {
+        "displayName": "Samples",
+        "description": "A set of samples to more easily get started with Va.Si.Li-Lab",
+        "path": "Samples~"
+      }
+    ]
+  }
