@@ -1081,7 +1081,7 @@ MonoBehaviour:
 
     - Social/Menu/Canvas/Main
     Panel/Set Avatar Panel/Content/Avatars Page Panel: Deactivate "Avatar Panel Controller"
-    and add "Meta Avatar Panel Controller"'
+    and add "Meta Avatar Panel Controller". Apply correft references'
 --- !u!114 &1452142751178339324
 MonoBehaviour:
   m_ObjectHideFlags: 0
