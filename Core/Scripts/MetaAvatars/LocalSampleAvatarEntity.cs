@@ -7,6 +7,7 @@ using Ubiq.Rooms;
 using Ubiq.Messaging;
 using Ubiq.XR;
 using VaSiLi.MetaAvatar;
+using static OVRPlugin;
 
 #if ENABLE_VR || ENABLE_AR
 using UnityEngine.XR;
@@ -83,7 +84,8 @@ public class LocalSampleAvatarEntity : SampleAvatarEntity
 
     public void UpdateTexture(int id)
     {
-        //tracker.dataBuffer.Dispose(); Not needed anymore
+        tracker.dataBuffer.Dispose(); // Not needed anymore
+        tracker.dataBuffer = default;
         id = Mathf.Max(id, 0);
         if (id <= 64)
         {   
