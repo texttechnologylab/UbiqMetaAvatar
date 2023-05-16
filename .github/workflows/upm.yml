@@ -32,7 +32,6 @@ jobs:
           git mv Samples Samples~
           git rm -f Samples.meta
           git rm -f .gitignore
-          git rm -f Unity.gitignore
           ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//  /g' -e 's/^/   /'
       - name: Config user name
         run: git config --global user.name "github-actions[bot]"
