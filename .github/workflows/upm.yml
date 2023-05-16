@@ -23,16 +23,10 @@ jobs:
         run: git checkout upm
       - name: Create upm package
         run: |
-          git rm -rf rest
-          git rm -rf rest_python
-          git rm -rf aiohttp_mjpeg
           git rm -rf .github
           git rm -rf Packages
           git rm -rf ProjectSettings
           git rm -f README.md
-          git rm -f LICENSE
-          git rm -rf ./Assets/Local
-          git rm -rf ./Assets/Local.meta
           git mv ./Assets/* .
           rm -rf Assets
           git mv Samples Samples~
