@@ -26,6 +26,7 @@ jobs:
           git rm -rf .github
           git rm -rf Packages
           git rm -rf ProjectSettings
+          git rm -rf Assets/Samples/Ubiq
           git rm -f README.md
           git mv ./Assets/* .
           rm -rf Assets
