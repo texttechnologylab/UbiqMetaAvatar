@@ -1,7 +1,4 @@
-using Oculus.Avatar2;
 using System.Collections;
-using System.Collections.Generic;
-using Ubiq.Utilities.Coroutines;
 using UnityEngine;
 using static Oculus.Avatar2.OvrAvatarEntity;
 
