@@ -70,3 +70,15 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+.vscode/
+
+# Ignore auto-generated XR because these are per-end user settings
+/Assets/XR/
+/Assets/XR.meta
+
+Recordings/
+
+/rest_python/.idea
+
+.vsconfig
