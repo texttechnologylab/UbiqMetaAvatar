@@ -1,0 +1,24 @@
+{
+    "name": "Ubiq.MetaAvatar",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ab979a98ba0be4546bceb48f770b11c8",
+        "GUID:d43c05b6cc104384f8f68e8dad6a32fb",
+        "GUID:71d013d189dbe2149987f416c8a83f5a",
+        "GUID:64a5e78bc3a487e4785840abcc411b13",
+        "GUID:2a230cb87a1d3ba4a98bdc0ddae76e6c",
+        "GUID:2bb50b4c282ae354d9ab579992c20e25",
+        "GUID:f64c9ebcd7899c3448a08dc9f9ddbe30",
+        "GUID:bf7126905a54c9746b9c475d69312766",
+        "GUID:10ccfe6c35e29e14798a0c711aa976a0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
