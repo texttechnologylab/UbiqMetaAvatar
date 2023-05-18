@@ -7,7 +7,7 @@
       "dependencies": {
         "com.unity.xr.management": "3.2.16"
       },
-      "hash": "7856858b3f7faa506391bbe18e797342b7f31bb6"
+      "hash": "66ceed68f4df6c0ccfe9c4f7d5fd642b162ab443"
     },
     "com.unity.collab-proxy": {
       "version": "2.0.0",
