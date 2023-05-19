@@ -1,6 +1,6 @@
 {
     "name": "com.digitell.metaavatar",
-    "version": "0.2.1",
+    "version": "0.2.3",
     "displayName": "Ubiq Meta Avatar",
     "description": "CInclude Meta Avatars in Ubiq",
     "unity": "2021.3",

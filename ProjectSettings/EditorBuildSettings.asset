@@ -4,6 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/Scenes/Start Here - Loopback.unity
+    guid: 113f1fab3929d224f9c0b95c27f999f5
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 94853b5e64b20ad4ea201d84aa95b8d9, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b9cfee7d3a5ca114b874b480fe318c9a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5cbf6c39b7f386e44b75af25c755c882, type: 2}
