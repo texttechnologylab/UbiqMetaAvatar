@@ -29,7 +29,6 @@ jobs:
           git rm -f README.md
           git rm -rf Assets/Oculus
           git rm -rf "Assets/TextMesh Pro"
-          git rm -rf Assets/StreamingAssets
           git rm -rf Assets/Samples/Ubiq
           git mv ./Assets/* .
           rm -rf Assets
