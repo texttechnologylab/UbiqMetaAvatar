@@ -1,12 +1,13 @@
 {
     "name": "com.digitell.metaavatar",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "displayName": "Ubiq Meta Avatar",
     "description": "CInclude Meta Avatars in Ubiq",
     "unity": "2021.3",
     "dependencies": {
       "com.unity.xr.management": "3.2.16",
-      "com.ucl.ubiq": "https://github.com/texttechnologylab/ubiq.git#upm"
+      "com.ucl.ubiq": "https://github.com/texttechnologylab/ubiq.git#upm",
+	  "com.unity.xr.oculus": "3.3.0"
    },
    "keywords": [ ],
     "author": {
