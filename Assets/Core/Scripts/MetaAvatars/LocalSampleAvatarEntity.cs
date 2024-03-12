@@ -17,7 +17,7 @@ namespace VaSiLi.MetaAvatar
     {
 
         private RoomClient roomClient;
-        private DesktopPlayerController desktoplayer;
+        //private DesktopPlayerController desktoplayer;
         private TrackedMetaAvatar tracker;
 
         private static List<XRInputSubsystem> tmpSubsystems = new List<XRInputSubsystem>();
@@ -25,7 +25,7 @@ namespace VaSiLi.MetaAvatar
         {
             //transform.rotation = Quaternion.identity;
             roomClient = NetworkScene.Find(this).GetComponentInChildren<RoomClient>();
-            desktoplayer = GameObject.Find("MetaPlayer").GetComponent<DesktopPlayerController>();
+            //desktoplayer = GameObject.Find("MetaPlayer").GetComponent<DesktopPlayerController>();
             tracker = transform.GetComponentInParent<TrackedMetaAvatar>();
 
             GameObject metamanager = GameObject.Find("AvatarSdkManagerHorizon");

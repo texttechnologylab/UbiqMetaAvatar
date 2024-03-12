@@ -130,23 +130,5 @@ namespace VaSiLi.MetaAvatar
             }
         }
 
-        private void SetGripProvider(string node, HandController handController)
-        {
-            if (node == string.Empty)
-            {
-                return;
-            }
-
-            if (!handController)
-            {
-                Debug.LogWarning("Could not find a hint source. Has the Ubiq player prefab changed?");
-                return;
-            }
-
-            var hp = gameObject.AddComponent<GripAvatarHintProvider>();
-            var manager = GetComponent<AvatarManager>();
-            hp.controller = handController;
-            manager.hints.SetProvider(node, AvatarHints.Type.Float, hp);
-        }
     }
 }

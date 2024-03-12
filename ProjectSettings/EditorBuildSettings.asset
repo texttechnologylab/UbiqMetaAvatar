@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/Samples/Scenes/Start Here - Loopback.unity
     guid: 113f1fab3929d224f9c0b95c27f999f5
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b9cfee7d3a5ca114b874b480fe318c9a, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5cbf6c39b7f386e44b75af25c755c882, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 78b8d6ed6a74acb429093720804d4f6f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 531a8a5bdc83fa44194ff5b7ba3c66ea, type: 2}

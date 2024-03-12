@@ -3,7 +3,6 @@ using System;
 using Ubiq.Messaging;
 using Ubiq.Voip;
 using UnityEngine;
-using Oculus.Avatar2;
 using Ubiq.Voip.Implementations.Dotnet;
 using UnityEngine.Windows;
 
@@ -29,8 +28,7 @@ namespace VaSiLi.MetaAvatar
         [SerializeField]
         private int _audioSampleRate = 16000;
 
-
-        private IDotnetVoipSource voipInput;
+        private IVoipSource voipInput;
 
         protected OvrAvatarVisemeContext _visemeContext;
 

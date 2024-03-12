@@ -1,19 +1,19 @@
 {
-    "name": "com.digitell.metaavatar",
+    "name": "org.texttechnologylab.metaavatar",
     "version": "0.2.5",
     "displayName": "Ubiq Meta Avatar",
-    "description": "CInclude Meta Avatars in Ubiq",
-    "unity": "2021.3",
+    "description": "Include Meta Avatars in Ubiq",
+    "unity": "2022.3",
     "dependencies": {
-      "com.unity.xr.management": "3.2.16",
-      "com.ucl.ubiq": "https://github.com/texttechnologylab/ubiq.git#upm",
-	  "com.unity.xr.oculus": "3.3.0"
+      "com.ucl.ubiq": "https://github.com/UCL-VR/ubiq.git#upm",
+	  "com.unity.xr.oculus": "4.1.2",
+	  "com.meta.xr.sdk.all": "62.0.0"
    },
    "keywords": [ ],
     "author": {
-      "name": "Digital Teaching and Learning Lab Goethe University Frankfurt",
+      "name": "TTLab Goethe University Frankfurt",
       "email": "digitell@uni-frankfurt.de",
-      "url": "https://www.uni-frankfurt.de/digitell"
+      "url": "https://www.texttechnologylab.org/"
     },
     "samples": [
       {
