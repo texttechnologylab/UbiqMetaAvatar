@@ -23,7 +23,8 @@ public class ScreenshotScript : MonoBehaviour
             // Reset Avatar or it gets overlayerd. I don't know, why that is not default ...
             avatar.Teardown();
             //CreateEntity() is normally protected. Changed it to public. 
-            avatar.CreateEntity();
+            //TODO!!!
+            //avatar.CreateEntity();
 
             // Load the actual avatar preset.
             avatar.LoadPreset(i);

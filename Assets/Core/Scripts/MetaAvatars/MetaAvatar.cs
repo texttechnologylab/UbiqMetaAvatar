@@ -8,6 +8,7 @@ namespace VaSiLi.MetaAvatar
 
         LocalSampleAvatarEntity localEntity;
         NetworkSampleAvatarEntity networkEntity;
+        /*
         public override bool IsLocal
         {
             get
@@ -19,7 +20,7 @@ namespace VaSiLi.MetaAvatar
                 isLocal = value;
                 SetupAvatarScript();
             }
-        }
+        }*/
 
 
         public OvrAvatarEntity GetActiveAvatarScript()
@@ -29,10 +30,14 @@ namespace VaSiLi.MetaAvatar
 
             if (IsLocal)
             {
+                localEntity.enabled = true;
+                networkEntity.enabled = false;
                 return localEntity;
             }
             else
             {
+                localEntity.enabled = false;
+                networkEntity.enabled = true;
                 return networkEntity;
             }
         }

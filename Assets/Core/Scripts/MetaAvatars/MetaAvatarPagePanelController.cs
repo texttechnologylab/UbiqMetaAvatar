@@ -102,8 +102,9 @@ namespace VaSiLi.MetaAvatar
             int textureIdxInt = int.Parse(textureIdx);
             if(textureIdxInt == catalogue.Count - 1)
             {
-                AvatarEditorDeeplink.LaunchAvatarEditor();
-                textureIdxInt = -1;
+                //TODO!!
+                //AvatarEditorDeeplink.LaunchAvatarEditor();
+                //textureIdxInt = -1;
             }
 
 

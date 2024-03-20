@@ -98,7 +98,8 @@ namespace VaSiLi.MetaAvatar
 
                 Teardown();
                 CreateEntity();
-                LoadLoggedInUserCdnAvatar();
+                LoadPreset(0);
+                //LoadLoggedInUserCdnAvatar();
             }
 
         }
