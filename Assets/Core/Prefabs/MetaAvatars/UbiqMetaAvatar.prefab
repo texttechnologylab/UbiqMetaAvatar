@@ -475,6 +475,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4424921461273402042, guid: c3dc5412b9c44234a8ae43008b7a6979, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4684227533121428177, guid: c3dc5412b9c44234a8ae43008b7a6979, type: 3}
       propertyPath: m_Name
       value: DesktopTransforms
@@ -522,6 +526,18 @@ PrefabInstance:
     - target: {fileID: 5338449701420077780, guid: c3dc5412b9c44234a8ae43008b7a6979, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5581449784809560603, guid: c3dc5412b9c44234a8ae43008b7a6979, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7458883811061015689, guid: c3dc5412b9c44234a8ae43008b7a6979, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7458883811061015689, guid: c3dc5412b9c44234a8ae43008b7a6979, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

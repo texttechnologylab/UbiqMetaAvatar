@@ -28,8 +28,8 @@ namespace VaSiLi.MetaAvatar
             //desktoplayer = GameObject.Find("MetaPlayer").GetComponent<DesktopPlayerController>();
             tracker = transform.GetComponentInParent<TrackedMetaAvatar>();
 
-            GameObject metamanager = GameObject.Find("AvatarSdkManagerHorizon");
-            GameObject player = GameObject.Find("MetaPlayer"); //I Bet there is a better variante ....
+            GameObject metamanager = GameObject.Find("MetaAvatarSdkManager");
+            //GameObject player = GameObject.Find("MetaPlayer"); //I Bet there is a better variante ....
 
             if (metamanager) //TODO: Filter Bots, set active view to first person
             {
@@ -47,7 +47,7 @@ namespace VaSiLi.MetaAvatar
                 SetEyePoseProvider(metamanager.GetComponent<OvrAvatarEyeTrackingBehaviorOvrPlugin>());
                 SetFacePoseProvider(metamanager.GetComponent<OvrAvatarFaceTrackingBehaviorOvrPlugin>());
 
-                SetLipSync(player.GetComponent<OvrAvatarLipSyncBehavior>());
+                //SetLipSync(player.GetComponent<OvrAvatarLipSyncBehavior>());
             }
 
 
