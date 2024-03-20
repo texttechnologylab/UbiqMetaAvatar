@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/Scenes/Start Here - Loopback.unity
+    path: Assets/Scenes/Start Here - Loopback.unity
     guid: 113f1fab3929d224f9c0b95c27f999f5
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 78b8d6ed6a74acb429093720804d4f6f, type: 2}
